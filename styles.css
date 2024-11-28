@@ -61,8 +61,11 @@ p {
 /* About Me and Experience Side by Side */
 #about-experience {
     display: flex;
-    justify-content: space-between;
     gap: 2rem;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1100px;
+    margin: 2rem auto;
 }
 
 #about-experience section {
