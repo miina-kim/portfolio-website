@@ -1,129 +1,134 @@
 /* General Styles */
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'DM Sans', sans-serif; /* Modern font */
+    font-size: 16px; /* Smaller font */
+    line-height: 1.5;
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg, #1a237e, #3949ab, #7986cb);
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color: #e5e7eb; /* Light grey */
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #ffffff;
-    line-height: 1.6;
+    margin-bottom: 1rem;
 }
 
 /* Header Section */
 header {
     text-align: center;
-    padding: 5rem 2rem;
-    background: linear-gradient(120deg, #283593, #1a237e);
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #1e40af, #2563eb);
     color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-size: 2.5rem; /* Reduced size */
+    letter-spacing: 1.5px;
     margin: 0;
 }
 
 header p {
-    font-size: 1.3rem;
-    margin: 1rem 0 0;
+    font-size: 1rem; /* Reduced size */
+    margin-top: 1rem;
+    color: #dbeafe;
 }
 
 /* Section Styles */
 section {
-    padding: 3rem;
-    max-width: 1100px;
+    padding: 2rem;
+    max-width: 800px;
     margin: 2rem auto;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent for trendy effect */
     backdrop-filter: blur(10px);
-    border-radius: 15px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     text-align: center;
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-    font-weight: 600;
-    color: #c5cae9;
-    border-bottom: 3px solid #5c6bc0;
-    display: inline-block;
-    padding-bottom: 0.5rem;
+    font-size: 1.8rem; /* Reduced size */
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: #c7d2fe;
 }
 
 p, article {
-    font-size: 1.1rem;
-    color: #e8eaf6;
-    margin: 1rem 0;
+    font-size: 0.9rem; /* Reduced size */
+    margin-bottom: 1.5rem;
+    color: #f3f4f6;
 }
 
 /* Projects Section */
 #projects .project {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-between;
+    gap: 1.5rem;
+    justify-content: space-around;
 }
 
 #projects .project img {
     max-width: 100%;
-    border-radius: 15px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     transition: transform 0.3s ease;
 }
 
 #projects .project img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1); /* Subtle animation */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Contact Section */
 #contact form {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 #contact form input, #contact form textarea {
     padding: 0.8rem;
-    border: 1px solid #5c6bc0;
+    border: 1px solid #93c5fd;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     color: white;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 #contact form input:focus, #contact form textarea:focus {
-    outline: 2px solid #7986cb;
+    outline: 2px solid #60a5fa;
 }
 
 #contact form button {
     padding: 0.8rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
-    background: linear-gradient(120deg, #5c6bc0, #7986cb);
+    background: linear-gradient(135deg, #2563eb, #1e40af);
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
 #contact form button:hover {
-    background: linear-gradient(120deg, #3949ab, #283593);
+    background: linear-gradient(135deg, #1e40af, #1e3a8a);
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 1.5rem;
-    background: #1a237e;
-    color: #c5cae9;
-    font-size: 0.9rem;
-    margin-top: 3rem;
+    background: #1e3a8a;
+    color: #9ca3af;
+    font-size: 0.8rem; /* Reduced size */
+    margin-top: 2rem;
 }
 
 footer a {
-    color: #7986cb;
+    color: #93c5fd;
     text-decoration: none;
 }
 
