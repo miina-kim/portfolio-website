@@ -33,7 +33,7 @@ header p {
 /* About Me & Experience Section */
 #about-experience {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Space between them */
     gap: 2rem;
     padding: 2rem;
     max-width: 1100px;
@@ -76,14 +76,14 @@ p {
     max-width: 800px;
     margin: 1rem auto;
     text-align: center;
-    font-size: 0.9rem; /* Smaller size */
+    font-size: 0.9rem;
     background: #ffffff;
     border-radius: 12px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #contact h2 {
-    font-size: 1.4rem; /* Smaller size */
+    font-size: 1.4rem;
     color: #3a506b;
     margin-bottom: 1rem;
 }
@@ -92,14 +92,22 @@ p {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    align-items: center; /* Centering the form */
 }
 
 #contact form input, #contact form textarea {
     padding: 0.8rem;
+    width: 100%; /* Keeps it smaller, max-width can be set */
+    max-width: 400px; /* Limit width */
     border: 1px solid #cfe2f3;
     border-radius: 10px;
     background: #f9f9f9;
     color: #333;
+}
+
+#contact form textarea {
+    resize: vertical;
+    height: 100px; /* Set a fixed height for the textarea */
 }
 
 #contact form button {
@@ -118,6 +126,7 @@ p {
     background: linear-gradient(135deg, #4b47cc, #8477d9);
     transform: translateY(-3px);
 }
+
 
 /* Footer */
 footer {
