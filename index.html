@@ -4,66 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABCDE's in My Life</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <h1>ABCDE's in My Life</h1>
-        <p>Your journey to becoming a data scientist starts here.</p>
+        <p>Welcome to my personal website!</p>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p><strong>Name:</strong> [Your Name]</p>
-        <p><strong>Job:</strong> Aspiring Data Scientist</p>
-        <p><strong>University:</strong> [Your University]</p>
-        <p><strong>Past Jobs:</strong> [Company 1, Company 2]</p>
-        <p><strong>Email:</strong> [Your Email]</p>
-        <p><strong>Phone:</strong> [Your Phone]</p>
-    </section>
+    <section id="about-experience">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Information about you goes here. You can include your background, interests, and anything that defines you.</p>
+        </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <article>
-            <h3>Company 1</h3>
-            <p>Description of your role and projects.</p>
-        </article>
-        <article>
-            <h3>Company 2</h3>
-            <p>Description of your role and projects.</p>
-        </article>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Details about your job experiences and previous roles go here. Highlight important skills and achievements.</p>
+        </section>
     </section>
 
     <section id="projects">
-        <h2>My Projects</h2>
+        <h2>Projects</h2>
         <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of the project.</p>
-            <img src="graph1.png" alt="Graph 1">
+            <img src="project1.jpg" alt="Project 1">
+            <p>Description of Project 1</p>
         </div>
         <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of the project.</p>
-            <img src="graph2.png" alt="Graph 2">
+            <img src="project2.jpg" alt="Project 2">
+            <p>Description of Project 2</p>
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Send</button>
+        <form>
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
         </form>
     </section>
+
+    <footer>
+        <p>Contact me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    </footer>
+
 </body>
 </html>
